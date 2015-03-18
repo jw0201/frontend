@@ -1,9 +1,9 @@
 System.config({
-  "baseURL": "/assets/javascripts/projects",
+  "baseURL": "/assets",
   "transpiler": "babel",
   "paths": {
-    "*": "*.js",
-    "bootstraps/*": "../bootstraps/*.js",
+    "*": "javascripts/projects/*.js",
+    "bootstraps/*": "javascripts/bootstraps/*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
   }
