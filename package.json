@@ -56,5 +56,12 @@
   },
   "scripts": {
     "postinstall": "grunt hookmeup"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "static/src",
+      "lib": "static/src",
+      "packages": "static/src/jspm_packages"
+    }
   }
 }

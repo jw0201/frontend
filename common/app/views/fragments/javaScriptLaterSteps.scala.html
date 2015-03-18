@@ -5,6 +5,19 @@
 
 @* Scripts that should be executed after CSS is loaded *@
 
+@if(item.isJspm) {
+    <script src="/assets/jspm_packages/system.js"></script>
+    <script src="/assets/config.js"></script>
+    <script>
+        System.import('javascripts/bootstraps/crosswords')
+            .catch(function (error) {
+                setTimeout(function () {
+                    console.error(error)
+                });
+            });
+    </script>
+}
+
 <script>
 
     var curl = {
