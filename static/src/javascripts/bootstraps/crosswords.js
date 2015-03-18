@@ -5,4 +5,4 @@
 //         init: init
 //     };
 // });
-alert('crosswords olly!!!!!!')
+window.alert('crosswords olly!!!!!!');
