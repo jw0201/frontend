@@ -1,7 +1,8 @@
 System.config({
-  "baseURL": "/assets",
+  "baseURL": "/assets/javascripts/projects",
   "transpiler": "babel",
   "paths": {
+    "js:*": "../*.js",
     "*": "*.js"
   }
 });
