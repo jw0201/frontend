@@ -62,6 +62,9 @@
       "baseURL": "static/src",
       "lib": "static/src",
       "packages": "static/src/jspm_packages"
+    },
+    "dependencies": {
+      "react": "^0.13.1"
     }
   }
 }

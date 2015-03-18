@@ -5,4 +5,3 @@ define([
         init: init
     };
 });
-// window.alert('crosswords olly!!!!!!');
