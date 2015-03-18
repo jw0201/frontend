@@ -64,7 +64,7 @@
       "packages": "static/src/jspm_packages"
     },
     "dependencies": {
-      "react": "^0.13.1"
+      "react": "npm:react@^0.13.1"
     }
   }
 }
