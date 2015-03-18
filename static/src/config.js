@@ -3,10 +3,9 @@ System.config({
   "transpiler": "babel",
   "paths": {
     "*": "*.js",
+    "bootstraps/*": "../bootstraps/*.js",
     "github:*": "jspm_packages/github/*.js",
-    "npm:*": "jspm_packages/npm/*.js",
-    "js:*": "../*.js",
-    "*": "*.js"
+    "npm:*": "jspm_packages/npm/*.js"
   }
 });
 
