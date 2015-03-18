@@ -1,7 +1,7 @@
 /* jshint newcap: false */
 define([
     'common/utils/$',
-    'common/utils/_',
+    'lodash',
     'bean',
     'bonzo',
     'react',

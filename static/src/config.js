@@ -11,6 +11,11 @@ System.config({
 
 System.config({
   "map": {
+    "common/utils/_": "npm:lodash@3.5.0",
+    "bean": "npm:bean@1.0.15",
+    "bonzo": "npm:bonzo@2.0.0",
+    "lodash": "npm:lodash@3.5.0",
+    "qwery": "npm:qwery@4.0.0",
     "react": "npm:react@0.13.1",
     "github:jspm/nodelibs-buffer@0.1.0": {
       "buffer": "npm:buffer@3.1.1"
@@ -34,6 +39,13 @@ System.config({
       "fs": "github:jspm/nodelibs-fs@0.1.1",
       "module": "github:jspm/nodelibs-module@0.1.0",
       "path": "github:jspm/nodelibs-path@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:bean@1.0.15": {
+      "fs": "github:jspm/nodelibs-fs@0.1.1"
+    },
+    "npm:bonzo@2.0.0": {
+      "fs": "github:jspm/nodelibs-fs@0.1.1",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:buffer@3.1.1": {
@@ -67,7 +79,13 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1",
       "source-map": "npm:source-map@0.1.31"
     },
+    "npm:lodash@3.5.0": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
     "npm:path-browserify@0.0.0": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:qwery@4.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:react@0.13.1": {

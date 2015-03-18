@@ -64,6 +64,10 @@
       "packages": "static/src/jspm_packages"
     },
     "dependencies": {
+      "bean": "npm:bean@^1.0.15",
+      "bonzo": "npm:bonzo@^2.0.0",
+      "lodash": "npm:lodash@^3.5.0",
+      "qwery": "npm:qwery@^4.0.0",
       "react": "^0.13.1"
     }
   }
