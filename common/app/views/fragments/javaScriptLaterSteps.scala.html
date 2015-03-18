@@ -11,6 +11,9 @@
         <script src="/assets/config.js"></script>
         <script>
             System.import('bootstraps/crosswords')
+                .then(function (crosswords) {
+                    crosswords.init();
+                })
                 .catch(function (error) {
                     setTimeout(function () {
                         console.error(error)

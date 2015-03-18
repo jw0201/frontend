@@ -11,12 +11,11 @@ System.config({
 
 System.config({
   "map": {
-    "common/utils/_": "npm:lodash@3.5.0",
     "bean": "npm:bean@1.0.15",
     "bonzo": "npm:bonzo@2.0.0",
-    "lodash": "npm:lodash@3.5.0",
+    "lodash": "npm:lodash-amd@2.4.1",
     "qwery": "npm:qwery@4.0.0",
-    "react": "npm:react@0.13.1",
+    "react": "npm:react@0.11.2",
     "github:jspm/nodelibs-buffer@0.1.0": {
       "buffer": "npm:buffer@3.1.1"
     },
@@ -79,7 +78,7 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1",
       "source-map": "npm:source-map@0.1.31"
     },
-    "npm:lodash@3.5.0": {
+    "npm:lodash-amd@2.4.1": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:path-browserify@0.0.0": {
@@ -88,7 +87,7 @@ System.config({
     "npm:qwery@4.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:react@0.13.1": {
+    "npm:react@0.11.2": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "envify": "npm:envify@3.4.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
